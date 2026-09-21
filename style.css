@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+}
+
+.logo {
+    width: 120px;
+}
+
+.nav-link {
+    color: rgb(106, 151, 162);
+}
+
+.navbar-nav {
+    margin: auto;
+    gap: 30px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    margin-top: 0;
+}
