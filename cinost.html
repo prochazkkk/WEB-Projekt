@@ -1,11 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
+
+    <!DOCTYPE html>
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Naše činnost</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="ris.svg" class="logo" alt="Logo">
+            <span>RYBÁŘSKÝ SVĚT</span>
+        </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Domů</a></li>
+                <li class="nav-item"><a class="nav-link" href="reviry.html">Revíry</a></li>
+                <li class="nav-item"><a class="nav-link active" href="cinost.html">Činnost</a></li>
+                <li class="nav-item"><a class="nav-link" href="onas.html">O nás</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="page-hero">
+    <div class="container">
+        <p class="eyebrow">SPOLEČNĚ PRO PŘÍRODU</p>
+        <h1>Naše činnost.</h1>
+        <p>Rybaření není jen o úlovcích. Je také o odpovědnosti a spolupráci.</p>
+    </div>
+</header>
+
+<section class="page-section">
+    <div class="container">
+
+        <div class="activity-row">
+            <div class="activity-image">
+                <img src="priroda.jpg" alt="Příroda u rybářského revíru">
+            </div>
+            <div class="activity-text">
+                <p class="eyebrow">01 / PÉČE O VODY</p>
+                <h2>Čistá příroda kolem nás.</h2>
+                <p>
+                    Zdravé vodní prostředí je důležité pro ryby i ostatní
+                    živočichy. Péče o okolí vody a ohleduplný přístup
+                    pomáhají zachovat krásu našich revírů.
+                </p>
+            </div>
+        </div>
+
+        <div class="activity-row activity-reverse">
+            <div class="activity-image">
+                <img src="cinnost.jpg" alt="Aktivity v přírodě">
+            </div>
+            <div class="activity-text">
+                <p class="eyebrow">02 / SPOLEČNÉ AKTIVITY</p>
+                <h2>Více než samotný lov.</h2>
+                <p>
+                    Společné aktivity mohou spojovat rybáře,
+                    podporovat předávání zkušeností a pomáhat
+                    budovat vztah k přírodě.
+                </p>
+            </div>
+        </div>
+
+        <div class="activity-row">
+            <div class="activity-image">
+                <img src="revir.jpg" alt="Rybářský revír">
+            </div>
+            <div class="activity-text">
+                <p class="eyebrow">03 / BUDOUCNOST RYBAŘENÍ</p>
+                <h2>Láska k vodě pro další generace.</h2>
+                <p>
+                    Zodpovědné rybaření začíná u každého z nás.
+                    Důležité je předávat zkušenosti, respektovat pravidla
+                    a chránit prostředí, ve kterém trávíme čas.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer-content">
+        <a href="index.html" class="footer-brand">RYBÁŘSKÝ SVĚT<span>.</span></a>
+        <p>S úctou k přírodě. Srdcem u vody.</p>
+        <div class="footer-line"></div>
+        <small>© 2026 Rybářský svět</small>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

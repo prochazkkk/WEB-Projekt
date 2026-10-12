@@ -1,11 +1,107 @@
-<!DOCTYPE html>
-<html lang="en">
+
+    <!DOCTYPE html>
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rybářské revíry</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="ris.svg" class="logo" alt="Logo">
+            <span>RYBÁŘSKÝ SVĚT</span>
+        </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Domů</a></li>
+                <li class="nav-item"><a class="nav-link active" href="reviry.html">Revíry</a></li>
+                <li class="nav-item"><a class="nav-link" href="cinost.html">Činnost</a></li>
+                <li class="nav-item"><a class="nav-link" href="onas.html">O nás</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="page-hero">
+    <div class="container">
+        <p class="eyebrow">OBJE VUJTE NOVÁ MÍSTA</p>
+        <h1>Naše rybářské revíry.</h1>
+        <p>Najděte místo, kde si užijete klid u vody a krásu přírody.</p>
+    </div>
+</header>
+
+<section class="page-section">
+    <div class="container">
+        <p class="eyebrow">KAM VYRAZIT</p>
+        <h2 class="section-title">Vyberte si svůj revír</h2>
+        <p class="section-intro">
+            Prohlédněte si naše vodní plochy a naplánujte si další výpravu.
+        </p>
+
+        <div class="row g-4 mt-3">
+
+            <div class="col-md-6 col-lg-4">
+                <article class="detail-card">
+                    <img src="priroda.jpg" alt="Rybářský revír">
+                    <div class="detail-card-content">
+                        <span class="card-label">ŘEKA</span>
+                        <h3>Říční revír</h3>
+                        <p>Tekoucí voda, přírodní břehy a zajímavá místa pro rybaření.</p>
+                        <a href="mapa.html" class="feature-link">Zobrazit na mapě →</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <article class="detail-card">
+                    <img src="revir.jpg" alt="Vodní nádrž">
+                    <div class="detail-card-content">
+                        <span class="card-label">VODNÍ NÁDRŽ</span>
+                        <h3>Klidná hladina</h3>
+                        <p>Vodní plocha obklopená přírodou, ideální pro odpočinek u vody.</p>
+                        <a href="mapa.html" class="feature-link">Zobrazit na mapě →</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <article class="detail-card">
+                    <img src="cinnost.jpg" alt="Příroda u vody">
+                    <div class="detail-card-content">
+                        <span class="card-label">PŘÍRODA</span>
+                        <h3>Přírodní zákoutí</h3>
+                        <p>Objevte další místa a užijte si chvíle daleko od každodenního ruchu.</p>
+                        <a href="mapa.html" class="feature-link">Zobrazit na mapě →</a>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+
+        <p class="notice">
+            Uvedené názvy a popisy jsou pouze ukázkové.
+            Před rybolovem si ověřte platnost povolenky a pravidla konkrétního revíru.
+        </p>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer-content">
+        <a href="index.html" class="footer-brand">RYBÁŘSKÝ SVĚT<span>.</span></a>
+        <p>S úctou k přírodě. Srdcem u vody.</p>
+        <div class="footer-line"></div>
+        <small>© 2026 Rybářský svět</small>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
